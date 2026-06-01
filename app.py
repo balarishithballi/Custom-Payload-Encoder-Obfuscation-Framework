@@ -20,7 +20,7 @@ from sample_data import SAMPLE_TEXTS, DEFAULT_TEXT
 from utils import validate_text_input, truncate_display
 
 st.set_page_config(
-    page_title="Text Encoding & Transformation Framework",
+    page_title="Custom Payload Encoder & Obfuscation Framework",
     page_icon="🔐",
     layout="wide"
 )
@@ -59,7 +59,7 @@ with st.sidebar:
 
 
 # ─── Header ───────────────────────────────────────────────────────────────────
-st.title("🔐 Text Encoding & Transformation Analysis Framework")
+st.title("🔐 payload Encoding & Transformation Analysis Framework")
 st.markdown(
     "An educational tool for studying **text encoding**, "
     "**reversible transformations**, **pattern matching**, and **statistical analysis**."
@@ -90,8 +90,8 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 # TAB 1 — ENCODING
 # ══════════════════════════════════════════════════════════════════════════════
 with tab1:
-    st.header("Text Encoding")
-    st.info("Encode and decode text using Base64, XOR (hex output), and ROT13.")
+    st.header("Payload Encoding")
+    st.info("Encode and decode Payload using Base64, XOR (hex output), and ROT13.")
 
     col1, col2 = st.columns(2)
 
